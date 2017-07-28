@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3, minimum-scale=0.5" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+  <!--Resetting whole css !-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!--Including our own style css!-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato"> -->
+  <title> J. O. Rob main page</title>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="assets/javascript/projectscript.js"></script>
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+
+<!-- ==== MENU ==== -->
+<div id="navigation">
+  <nav> <!-- <ul class="headerList"> !-->
+     <li> <a href="#home"> <div class="element"> Home</div><img id="homeImg"  src="assets/img/icons/menu-home.png" width="50px" height="50px"></a></li>
+     <li> <a href="#about"><div class="element"> About Me</div><img id="aboutImg" src="assets/img/icons/menu-about.png" width="50px" height="50px"></a></li>
+     <li> <a href="#portfolio"><div class="element"> Portfolio</div><img id="portfolioImg" src="assets/img/icons/menu-portfolio.png" width="50px" height="50px"></a></li>
+     <li> <a href="#blog"><div class="element"> Blog</div><img id="blogImg" src="assets/img/icons/menu-blog.png" width="50px" height="50px"></a></li>
+     <li> <a href="#contact"><div class="element"> Contact</div><img id="contactImg" src="assets/img/icons/menu-contact.png" width="50px" height="50px"></a></li>
+  </nav>
+</div>
+
+<!-- ==== HEADER ==== -->
+<section id="home">
+  <header >
+     <p>A 2.0 web developer.</p>
+     <p>At your service</p>
+  </header>
+</section>
+
+<!-- ==== ABOUT ==== -->
+<section id="about">
+  <br>
+  <article>
+     <header ><h1>A LITTLE ABOUT MY SELF</h1></header>
+     <p>I am a UX/UI Designer and Front End developer from Zurich, Switzerland. I love to solve complex problem, create new and simple design solution for different topics.
+        I create beautiful, usable, professional websites using best practice accessibility and the latest W3C web standards guidelines, resulting in semantic and seo friendly XHTML and CSS. All my websites are lovingly hand coded. </p>
+
+     <p>At first I intended to be an animator and went to design school fully motivated to become just that. One thing led to another and 2 years went by and I was a (almost) fully fledged freelance web designer without ever planning to become one.
+        When I am not coding or designing some new websites I am usually at the gym doing boldring. To relax my nerve I like to play videogames with some friends while eating pizza! .</p>
+  </article>
+</section>
+
+
+<!-- ==== SECTION DIVIDER1 -->
+<section id="partDesigner">
+  <article >
+     <h1>PART DESIGNER...</h1>
+     <p>A web developer needs to have a good aesthetic eye on his product. For this reason part of my skills include user interface and interaction design. </p>
+  </article>
+</section>
+
+<!-- ==== SECTION DIVIDER2 -->
+<section id="partCoder" >
+  <article >
+     <h1>PART CODER!</h1>
+     <p>But a website cannot be just nice to see... It has to work! That's why we have JavaScript, PHP and CMS like WordPress </p>
+  </article>
+</section>
+
+
+<section id="technicalSkills">
+  <h1> My Technical Skills</h1>
+  <div>
+     <ul>
+        <li><div id="barHTML"></div><div class="barNumber">95<span>%</span></div> <div class="barDesc">HTML</div></li>
+        <li><div id="barCSS"></div><div class="barNumber">80<span>%</span></div> <div class="barDesc">CSS</div></li>
+        <li><div id="barJS"></div><div class="barNumber">90<span>%</span></div> <div class="barDesc">JavaScript</div></li>
+        <li><div id="barWP"></div><div class="barNumber">80<span>%</span></div> <div class="barDesc">WordPress</div></li>
+     </ul>
+  </div>
+</section>
+
+<!-- ==== PORTFOLIO ==== -->
+<section id="portfolio">
+  <div >
+     <br>
+     <h1 >I WORKED ON COOL STUFF</h1>
+     <br>
+     <br>
+  </div>
+  <ul class="buttonsList">
+     <p id="all">ALL</p>
+     <p>UI DESIGN</p>
+     <p>ANDROID PAGE</p>
+  </ul>
+  <br>
+
+
+  <ul class="portfolioList" >
+     <!-- PORTFOLIO IMAGE 1 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio01.jpg" alt="">
+           <figcaption>
+              <h5>UI DESIGN</h5>
+              <a data-toggle="modal" href="#myModal1" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+     <!-- PORTFOLIO IMAGE 2 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio02.jpg" alt="">
+           <figcaption>
+              <h5>UI DESIGN</h5>
+              <a data-toggle="modal" href="#myModal2" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+     <!-- PORTFOLIO IMAGE 3 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio03.jpg" alt="">
+           <figcaption>
+              <h5>ANDROID PAGE</h5>
+              <a data-toggle="modal" href="#myModal3" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+     <!-- PORTFOLIO IMAGE 4 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio04.jpg" alt="">
+           <figcaption>
+              <h5>ANDROID PAGE</h5>
+              <a data-toggle="modal" href="#myModal4" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+     <!-- PORTFOLIO IMAGE 5 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio05.jpg" alt="">
+           <figcaption>
+              <h5>ANDROID PAGE</h5>
+              <a data-toggle="modal" href="#myModal5" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+     <!-- PORTFOLIO IMAGE 6 -->
+     <li class = "portfolioImageContainer" >
+        <figure>
+           <img  src="assets/img/portfolio/folio06.jpg" alt="">
+           <figcaption>
+              <h5>ANDROID PAGE</h5>
+              <a data-toggle="modal" href="#myModal6" >Take a Look</a>
+           </figcaption>
+        </figure>
+     </li>
+  </ul>
+
+  <div id="myModal1" class="popupBackground">
+     <div class="popup">
+        <h2>UI Design</h2>
+        <a class="close" href="#dummy">x</a>
+        <div class="content">
+           <img  src="assets/img/portfolio/folio01.jpg" alt="">
+           <p> I build the User Interface for the weather.com app. The task encompassed showing the weather forecast for the next five days including some icon and the temperature.</p>
+        </div>
+     </div>
+  </div>
+
+  <div id="myModal2" class="popupBackground">
+     <div class="popup">
+        <h2>UI DESIGN</h2>
+        <a class="close" href="#dummy">x</a>
+        <div class="content">
+           <img  src="assets/img/portfolio/folio02.jpg" alt="">
+           <p>I created the Webpage for Vaux.</p>
+        </div>
+     </div>
+  </div>
+  <div id="myModal3" class="popupBackground">
+     <div class="popup">
+        <h2>ANDROID PAGE</h2>
+        <a class="close" href="#dummy">x</a>
+        <div class="content">
+           <img  src="assets/img/portfolio/folio03.jpg" alt="">
+           <p>I worked on the UILove platform. It provides a simple but powerful platform for collaboration specially built for UI designers.</p>
+        </div>
+     </div>
+  </div>
+  <div id="myModal4" class="popupBackground">
+     <div class="popup">
+        <h2>ANDROID PAGE</h2>
+        <a class="close" href="#dummy">x</a>
+        <div class="content">
+           <img  src="assets/img/portfolio/folio04.jpg" alt="">
+           <p>Some sophisticated storage management, to organize, store, and find your data.</p>
+        </div>
+     </div>
+  </div>
+  <div id="myModal5" class="popupBackground">
+     <div class="popup">
+        <h2>ANDROID PAGE</h2>
+        <a class="close" href="#dummy">x</a>
+        <div class="content">
+           <img  src="assets/img/portfolio/folio05.jpg" alt="">
+           <p>This is a lightweight clock app, giving additional information about sunrise and sunset.</p>
+        </div>
+     </div>
+  </div>
+  <div id="myModal6" class="popupBackground">
+     <div class="popup">
+        <h2>ANDROID PAGE</h1>
+           <a class="close" href="#dummy">x</a>
+           <div class="content">
+              <img  src="assets/img/portfolio/folio06.jpg" alt="">
+              <p>A sophisticated widget management system, including lots of standard widgets and possibilities for customization.</p>
+           </div>
+     </div>
+  </div>
+</section>
+
+
+<!-- ==== BLOG ==== -->
+<section id="blog">
+  <br>
+  <div >
+     <br>
+     <h1 >MY  PERSONAL BLOG</h1>
+     <br>
+     <br>
+  </div>
+
+  <div class="blogContainer">
+     <div class ="block">
+        <div class = "dark" >
+           <figure>
+              <img  src="assets/img/team/u1.jpg" width="60px" height="60px">
+              <figcaption>Pinco Pallino</figcaption>
+           </figure>
+           <h5>Published Feb 28.</h5>
+        </div>
+        <div class = "white" >
+           <article>
+              <header>What Define Success</header>
+              <p>No matter how old you are, where you’re from or what you do for a living, we all share something in common—a desire to be successful. .</p>
+              <p>Each person’s definition of success is different, however, as some may define success as being a loving and faithful spouse or a caring and responsible parent, while most people would equate success with wealth, fame, and power</p>
+              <p><a href="#" > Read More</a></p>
+           </article>
+        </div>
+     </div>
+
+     <div class = "block" >
+        <div class = "dark" >
+           <figure>
+              <img  src="assets/img/team/u1.jpg" width="60px" height="60px">
+              <figcaption>Pinco Pallino</figcaption>
+           </figure>
+           <h5>Published Feb 02.</h5>
+        </div>
+        <div class = "white" >
+           <article>
+              <header>A Beautiful Story</header>
+              <p>One day, in a heavily crowded place, a young man was shouting at the crowd. “People look at me; I have the most beautiful heart in the world.”</p>
+              <p>Many people looked at him and were stunned to see the beautiful heart in a perfect shape, no little flaw, which looked quite amazing. Most of the people who saw his heart was mesmerized by the beauty of his heart and praised him. </p>
+              <p><a href="#" > Read More</a></p>
+           </article>
+        </div>
+     </div>
+     <div class ="right">
+        <div  class = "tutorialBlock">
+           <p> Parallax Tutorial</p> <p class = "tutorialDate"> Dec. 2015</p>
+           <p><a href="#" > Read More</a></p>
+        </div>
+        <div  class = "tutorialBlock">
+           <p> Positioning in CSS</p> <p class = "tutorialDate"> Nov. 2015</p>
+           <p><a href="#" > Read More</a></p>
+        </div>
+        <div class = "tutorialBlock" >
+           <p> What is Node.js?</p> <p class = "tutorialDate"> Sep. 2015</p>
+           <p><a href="#" > Read More</a></p>
+        </div>
+     </div>
+  </div>
+  <br>
+  <br>
+</section>
+
+
+<!-- ==== SECTION DIVIDER6 ==== -->
+<section id = "crafted">
+  <h1>CRAFTED IN ZURICH, SWITZERLAND.<div class="manualUnderline"></div></h1>
+  <p>Paradeplatz 987,</p>
+  <p class = "lastP">+0041 9884 4893</p>
+</section>
+
+<section id="contact">
+  <div >
+     <br>
+     <h1 >THANKS FOR VISITING!</h1>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div class ="container">
+        <section class="element">
+           <article>
+              <header>Contact Information</header>
+              <br>
+              <p><span ></span> Paradeplatz, Zurich<br/>
+                 <span ></span> +0041 9884 4893<br/>
+                 <span ></span> +0041 9884 8893<br/>
+                 <span ></span> <a href="#"> mrdesignrobot@inf.co</a> <br/>
+                 <span ></span> <a href="#"> @mrdesignrobot </a> <br/>
+                 <span ></span> <a href="#"> Mr Design Luigi</a> <br/>
+              </p>
+           </article>
+        </section>
+
+        <section class="element">
+           <article>
+              <header>Newsletter</header>
+              <br>
+              <p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+              <br>
+              <br>
+              <br>
+              <p>
+              <form  role="form">
+                 <ol>
+                    <li >
+                       <label for="inputEmail1" class="col-lg-4 control-label"></label>
+                       <input type="email"  id="inputEmail1" placeholder="Email">
+                    </li>
+                    <br>
+                    <li >
+                       <label for="text1" class="col-lg-4 control-label"></label>
+                       <input type="text"  id="text1" placeholder="Your Name">
+                    </li> <br>
+                 </ol>
+                 <br>
+                 <div >
+                    <button type="submit" >Sign in</button>
+                 </div>
+              </form>
+              </p>
+           </article>
+        </section>
+
+        <section class="element">
+           <article>
+              <header>Support Us</header>
+              <br>
+              <p>If you would like to support my work and my passion for web crafting please feel free to send me an email, or to share one of my project on tweeter or facebook. Any small little thing will be appreciated!</p>
+           </article>
+        </section>
+     </div>
+  </div>
+
+</section>
+
+
+<footer id = "footer">
+  <h4>Created by <a href="http://globis.co">globis</a> </h4>
+</footer>
+</body>
+</html>

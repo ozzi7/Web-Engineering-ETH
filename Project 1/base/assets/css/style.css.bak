@@ -1,0 +1,657 @@
+body {
+  /*font-size: 62.5%;*/
+  font-size: 100%;
+}
+
+h1 {
+   /*font-family: 'Lato', sans-serif;*/
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+   font-size: 250%;
+   /*font-size: 2em;*/
+   text-align: center;
+}
+
+p {
+   /*font-family: 'Lato', sans-serif;*/
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+   font-size: 110%;
+   line-height: 150%;
+}
+
+#header {
+   /*outline: 1px solid #04FF3B;*/
+   background-color: #313131;
+
+   display: block;
+}
+
+#header ul {
+   /*padding: 20px;*/
+   /*max-width: */
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+#header li {
+   display: inline-block;
+   /*margin: 1%;*/
+   margin: 5px;
+}
+
+#header a {
+   /*outline: 1px solid #04FF3B;*/
+   /*padding: 10px;*/
+   /*font-size: 110%;*/
+   padding: 5px;
+   /*padding-bottom: 100px;*/
+   /*margin-bottom: 50px;*/
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+   color: #F2F2F2;
+
+   text-decoration: none;
+}
+
+#home {
+   /*outline: 1px solid #04FF3B;*/
+   padding-top: 300px;
+   padding-bottom: 250px;
+
+   background-image: url("../img/header_bg2.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom;
+
+   text-align: center;
+}
+
+#home p {
+   /*outline: 1px solid #048BFF;*/
+   padding: 10px;
+
+   height: auto;
+   margin-bottom: 30px;
+   margin: auto;
+
+   text-align: center;
+
+   font-size: 400%;
+   font-family: Arial;
+   color: #282828;
+   letter-spacing: 5px;
+   /* offset-x | offset-y | blur-radius | color */
+   text-shadow: 2px 2px 2px white;
+}
+
+#about {
+   /*outline: 100px solid #01DF3A;*/
+}
+
+#about h1 {
+   /*outline: 1px solid #048BFF;*/
+   max-width: 500px;
+   margin: auto;
+   padding: 20px;
+
+   border-bottom: 3px solid #E9E9E9;
+
+   color: black;
+   /*color: #282828;*/
+}
+
+.aboutTextBox {
+   /*outline: 1px solid #048BFF;*/
+
+   max-width: 1250px;
+
+   margin: auto;
+   /*margin-top: 50px;*/
+   margin-top: 5%;
+   padding-bottom: 20px;
+
+   color: #585858;
+}
+
+#partDesigner {
+   /*outline: 1px solid #FE2E2E;*/
+
+   background-image: url("../img/bg/divider12.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   background-attachment: fixed;
+}
+
+#partDesigner h1 {
+   /*outline: 1px solid #8CACFF;*/
+   max-width: 500px;
+
+   margin: auto;
+   padding: 20px;
+   padding-top: 50px;
+
+   border-bottom: 2px solid #E9E9E9;
+
+   color: white;
+   /* offset-x | offset-y | blur-radius | color */
+   text-shadow: 1px 1px 1px black;
+}
+
+#partDesigner p {
+   /*outline: 1px solid #9EFF0B;*/
+   max-width: 800px;
+
+   margin: auto;
+   padding-top: 25px;
+   padding-bottom: 100px;
+
+   /*text-align: center;*/
+
+   font-size: 150%;
+   text-align: center;
+   color: white;
+   letter-spacing: 2px;
+   /* offset-x | offset-y | blur-radius | color */
+   text-shadow: 1px 1px 1px black;
+}
+
+#partCoder {
+   /*outline: 1px solid #FE2E2E;*/
+
+   background-image: url("../img/bg/divider22.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+#partCoder h1 {
+   /*outline: 1px solid #8CACFF;*/
+   max-width: 1000px;
+   margin: auto;
+
+   padding: 20px;
+   padding-top: 100px;
+   border-bottom: 3px solid #E9E9E9;
+
+   color: white;
+}
+
+#partCoder p {
+   /*outline: 1px solid #9EFF0B;*/
+   max-width: 1500px;
+
+   margin: auto;
+   padding-top: 25px;
+   padding-bottom: 100px;
+
+   text-align: center;
+   font-size: 150%;
+   text-align: center;
+   letter-spacing: 2px;
+   color: white;
+}
+
+#technicalSkills {
+   /*outline: 1px solid #8CACFF;*/
+   background-color: #F5F5F5;
+   border-bottom: 2px solid #E9E9E9;
+}
+
+#technicalSkills h1 {
+   /*outline: 1px solid #8CACFF;*/
+   max-width: 500px;
+   font-weight: 300;
+   margin: auto;
+   font-family: 'Raleway', sans-serif;
+   padding: 20px;
+   padding-top: 50px;
+}
+
+#technicalSkills ul {
+   /*outline: 1px solid #8CACFF;*/
+   width: 90%;
+   margin: auto;
+   /*padding: 20px;*/
+   text-align: center;
+}
+
+#technicalSkills li {
+   /*outline: 1px solid #8CACFF;*/
+   position: relative;
+   display: inline-block;
+   margin: 2%;
+   /*width: 200px;*/
+   max-width: 200px;
+   width: 20%;
+   height: 400px;
+   /*height: width*2;*/
+}
+
+#technicalSkills .barNumber {
+   position: absolute;
+   /*position: relative;*/
+   /*top: 290px;*/
+   top: 75%;
+   /*why does this work exactly?*/
+   left: 0;
+   right: 0;
+
+   opacity: 0.3;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 350%;
+   color: white;
+}
+
+#technicalSkills .barDesc {
+   position: absolute;
+   top: 90%;
+   left: 0;
+   right: 0;
+
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   /*font-size: 150%;*/
+   font-size: 150%;
+   color: white;
+   text-align: center;
+   /* offset-x | offset-y | blur-radius | color */
+   text-shadow: 1px 1px 1px black;
+}
+
+#barHTML {
+   outline: 1px solid #60B2A9;
+   height: 95%;
+   position: relative;
+   top: 5%;
+
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #60B2A9),
+   color-stop(1,#AEDAD5));
+}
+
+#barCSS {
+   outline: 1px solid #E1AF9F;
+   height: 80%;
+   position: relative;
+   top: 20%;
+
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E1AF9F),
+   color-stop(1,#F3DAD4));
+   vertical-align: bottom;
+}
+
+#barJS {
+   outline: 1px solid #DFAE37;
+   height: 90%;
+   position: relative;
+   top: 10%;
+
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #DFAE37),
+   color-stop(1,#EFC563));
+}
+
+#barWP {
+   outline: 1px solid #DCBA83;
+   height: 80%;
+   position: relative;
+   top: 20%;
+
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #BC8E5B),
+   color-stop(1,#DCBA83));
+}
+
+/*TODO: this is weird, why is when resizing the div not smaller as well...*/
+#portfolio h1 {
+  /*outline: 1px solid #DCBA83;*/
+  max-width: 750px;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+
+  border-bottom: 3px solid #E9E9E9;
+}
+
+/* CONFLICTS IN PORTFOLIO!*/
+#portfolio .buttonsList {
+   /*outline: 1px solid #048BFF;*/
+   /*width: 50%;*/
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+
+#portfolio .buttonsList p {
+  /*outline: 1px solid #048BFF;*/
+  width: 20%;
+  max-width: 120px;
+  padding: 10px;
+  margin: 20px;
+  /*vertical-align: middle;*/
+  text-align: center;
+  background: #808080;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  /*use fixed fontsize since image doesn't scale neither*/
+  font-size: 16px;
+  color: white;
+}
+
+#portfolio #all {
+   background: #32CD32;
+}
+
+#portfolio .portfolioList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#portfolio .portfolioImageContainer {
+  /*outline: 1px solid #048BFF;*/
+  /*display: flex;*/
+  width: 270px;
+  height: 170px;
+  position: relative;
+  margin: 10px;
+  text-align: center;
+}
+
+#portfolio .portfolioImageContainer img {
+  /*width: 270px;
+  height: 170px;*/
+  /*position: absolute;*/
+  width: 90%;
+  height: 90%;
+}
+
+#portfolio .portfolioImageContainer figcaption {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 80%;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #3498DB;
+}
+
+#portfolio .portfolioImageContainer h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  /*use fixed fontsize since image doesn't scale neither*/
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+#portfolio .portfolioImageContainer a {
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  /*use fixed fontsize since image doesn't scale neither*/
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background: #2F2F2F;
+}
+
+
+#blog {
+   background-color: #F5F5F5;
+}
+#blog .container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+#blog .left {
+   display: flex;
+   width:44.4%;
+   min-width: 300px;
+}
+
+#blog .middle {
+   display: flex;
+   width:44.4%;
+}
+
+#blog .right {
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width:11.2%;
+}
+
+#blog .dark {
+   float: left;
+   background-color: #313131;
+   display: inline-block;
+}
+#blog .dark h4 {
+   color: #F5F5F5;
+   text-align:center;
+   top:30%;
+}
+#blog .dark h5 {
+   color: #F5F5F5;
+   text-align:center;
+   top:40%;
+}
+#blog .white {
+   background-color: white;
+   display: inline-block;
+}
+#blog .right .top {
+   background-color: #313131;
+   height:30%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   display:flex;
+}
+#blog .right .middle {
+   background-color: #313131;
+   height:30%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   display:flex;
+}
+#blog .right .bottom {
+   background-color: #313131;
+   height:30%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+   display:flex;
+}
+
+#blog .container img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#crafted {
+  background-image: url("../img/bg/divider661.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+
+  text-align: center;
+}
+
+#crafted h1 {
+  /*outline: 1px solid #8CACFF;*/
+  max-width: 1000px;
+
+  padding: 20px;
+  padding-top: 400px;
+  margin: auto;
+
+  /*border-bottom: 2px solid #E9E9E9;*/
+  font-size: 350%;
+  color: white;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 1px 1px 1px black;
+
+}
+
+#crafted .manualUnderline {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  border-bottom: 3px solid #E9E9E9;
+}
+
+#crafted p {
+
+  /*outline: 1px solid #9EFF0B;*/
+  max-width: 800px;
+
+  margin: auto;
+  margin-top: 50px;
+
+  font-size: 250%;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 1px 1px 1px black;
+}
+
+#crafted .lastP {
+
+  padding-bottom: 250px;
+}
+
+#contact .container {
+   margin-left: 20px;
+   margin-right: 20px;
+   display:flex;
+   justify-content: center;
+}
+
+#contact .info{
+   width: 33%;
+   text-align: left;
+}
+#contact .newsletter{
+   width: 33%;
+   text-align: left;
+}
+#contact .support{
+   width: 33%;
+   text-align: left;
+}
+
+#contact h3 {
+   text-align: left;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+   font-size: 125%;
+}
+#contact p {
+   text-align: left;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+   font-size: 100%;
+}
+
+#footer {
+   height: 100px;
+   background-color: #313131;
+}
+#footer h4 {
+   position: relative;
+   color: white;
+   text-align: center;
+   top: 50%;
+}
+a:link {
+   color: slateblue;
+   text-decoration: none;
+}
+
+@media screen and (min-width:1024px){
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  #technicalSkills li {
+     height: 300px;
+  }
+  body{
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+   #technicalSkills li {
+       height: 200px;
+
+   }
+   body{
+       font-size: 70%;
+
+   }
+   #blog .container
+   {
+       flex-direction: column;
+   }
+   #blog .container .right
+   {
+       flex-direction: row;
+   }
+   #contact .container
+   {
+       flex-direction: column;
+   }
+}
+
+@media screen and (max-width:479px) {
+   #technicalSkills li {
+       height: 150px;
+
+   }
+   body{
+       font-size: 70%;
+
+   }
+
+   #technicalSkills .barNumber {
+     /*font-size: 150%;*/
+   }
+
+   #technicalSkills .barDesc {
+      font-size: 125%;
+   }
+
+   #blog .container
+   {
+       flex-direction: column;
+   }
+   #blog .container .right
+   {
+       flex-direction: row;
+   }
+   #contact .container
+   {
+       flex-direction: column;
+   }
+}

@@ -1,0 +1,4 @@
+http://localhost:8080/screen.html?name=screen1
+http://localhost:8080/screen.html?name=screen2
+
+http://localhost:8080/remote.html
